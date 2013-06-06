@@ -1,0 +1,47 @@
+package fr.lesboutsdchou.reservations.services.planning.impl;
+
+import java.util.Date;
+import java.util.List;
+
+import fr.lesboutsdchou.reservations.dao.planning.ReservationDao;
+import fr.lesboutsdchou.reservations.model.personnes.Enfant;
+import fr.lesboutsdchou.reservations.model.personnes.Famille;
+import fr.lesboutsdchou.reservations.model.planning.Reservation;
+import fr.lesboutsdchou.reservations.services.planning.ReservationServices;
+
+public class ReservationServicesImpl implements ReservationServices {
+	
+	ReservationDao reservationDao;	
+
+	public ReservationServicesImpl(ReservationDao reservationDao) {
+		this.reservationDao = reservationDao;
+	}
+
+
+	public void addReservation(Enfant enfant, Date dateHeureDebut,
+			Date dateHeureFin) {
+		reservationDao.addReservation(enfant, dateHeureDebut, dateHeureFin);
+
+	}
+
+	public List<Reservation> findAllReservations() {
+		// TODO Auto-generated method stub
+		return reservationDao.findAllReservations();
+	}
+
+	public List<Reservation> findAllReservationsByDate(Date date) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<Reservation> findAllReservationsByFamille(Famille famille) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Reservation findReservationByEnfantAndByDate(Enfant enfant, Date date) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

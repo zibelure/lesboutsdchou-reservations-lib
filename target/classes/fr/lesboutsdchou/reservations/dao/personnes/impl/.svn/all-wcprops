@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/test/!svn/ver/17/reservations/target/classes/fr/lesboutsdchou/reservations/dao/personnes/impl
+END
+AdresseDaoImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/test/!svn/ver/17/reservations/target/classes/fr/lesboutsdchou/reservations/dao/personnes/impl/AdresseDaoImpl.class
+END
+FamilleDaoImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/test/!svn/ver/17/reservations/target/classes/fr/lesboutsdchou/reservations/dao/personnes/impl/FamilleDaoImpl.class
+END
+ParentDaoImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/test/!svn/ver/17/reservations/target/classes/fr/lesboutsdchou/reservations/dao/personnes/impl/ParentDaoImpl.class
+END
+EnfantDaoImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/test/!svn/ver/17/reservations/target/classes/fr/lesboutsdchou/reservations/dao/personnes/impl/EnfantDaoImpl.class
+END

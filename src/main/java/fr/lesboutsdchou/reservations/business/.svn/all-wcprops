@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/test/!svn/ver/25/reservations/src/main/java/fr/lesboutsdchou/reservations/business
+END
+AdministrationBusiness.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/test/!svn/ver/25/reservations/src/main/java/fr/lesboutsdchou/reservations/business/AdministrationBusiness.java
+END
+BusinessFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/test/!svn/ver/25/reservations/src/main/java/fr/lesboutsdchou/reservations/business/BusinessFactory.java
+END
+ReservationBusiness.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/test/!svn/ver/25/reservations/src/main/java/fr/lesboutsdchou/reservations/business/ReservationBusiness.java
+END

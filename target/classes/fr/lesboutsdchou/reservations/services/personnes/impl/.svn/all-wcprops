@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/test/!svn/ver/17/reservations/target/classes/fr/lesboutsdchou/reservations/services/personnes/impl
+END
+AdresseServicesImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/test/!svn/ver/17/reservations/target/classes/fr/lesboutsdchou/reservations/services/personnes/impl/AdresseServicesImpl.class
+END
+FamilleServicesImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/test/!svn/ver/17/reservations/target/classes/fr/lesboutsdchou/reservations/services/personnes/impl/FamilleServicesImpl.class
+END
+ParentServicesImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/test/!svn/ver/17/reservations/target/classes/fr/lesboutsdchou/reservations/services/personnes/impl/ParentServicesImpl.class
+END
+EnfantServicesImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/test/!svn/ver/17/reservations/target/classes/fr/lesboutsdchou/reservations/services/personnes/impl/EnfantServicesImpl.class
+END

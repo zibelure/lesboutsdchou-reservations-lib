@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/test/!svn/ver/13/trunk/StrutsSpringExample/src/main/resources/com/mkyong/customer/hibernate
+END
+Enfant.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/test/!svn/ver/19/trunk/StrutsSpringExample/src/main/resources/com/mkyong/customer/hibernate/Enfant.hbm.xml
+END
+Reservation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/test/!svn/ver/18/trunk/StrutsSpringExample/src/main/resources/com/mkyong/customer/hibernate/Reservation.hbm.xml
+END
+Adresse.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/test/!svn/ver/18/trunk/StrutsSpringExample/src/main/resources/com/mkyong/customer/hibernate/Adresse.hbm.xml
+END
+Famille.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/test/!svn/ver/18/trunk/StrutsSpringExample/src/main/resources/com/mkyong/customer/hibernate/Famille.hbm.xml
+END
+Parent.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/test/!svn/ver/18/trunk/StrutsSpringExample/src/main/resources/com/mkyong/customer/hibernate/Parent.hbm.xml
+END

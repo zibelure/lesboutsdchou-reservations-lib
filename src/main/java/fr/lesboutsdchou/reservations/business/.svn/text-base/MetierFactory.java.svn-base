@@ -1,0 +1,11 @@
+package fr.lesboutsdchou.reservations.metier;
+
+import org.springframework.context.ApplicationContext;
+
+public interface MetierFactory {
+	
+	public ApplicationContext getContext();
+	
+	public MetierAdministration getMetierAdministration();
+
+}

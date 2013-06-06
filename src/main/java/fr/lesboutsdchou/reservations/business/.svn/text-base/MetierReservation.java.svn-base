@@ -1,0 +1,5 @@
+package fr.lesboutsdchou.reservations.metier;
+
+public interface MetierReservation {
+
+}

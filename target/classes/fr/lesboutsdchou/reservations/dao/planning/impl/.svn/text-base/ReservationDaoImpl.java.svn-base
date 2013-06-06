@@ -1,0 +1,74 @@
+package fr.lesboutsdchou.reservations.dao.planning.impl;
+
+import java.util.Date;
+import java.util.List;
+
+import org.hibernate.SessionFactory;
+import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
+
+import fr.lesboutsdchou.reservations.dao.planning.ReservationDao;
+import fr.lesboutsdchou.reservations.model.personnes.Enfant;
+import fr.lesboutsdchou.reservations.model.personnes.Famille;
+import fr.lesboutsdchou.reservations.model.planning.Reservation;
+
+public class ReservationDaoImpl extends HibernateDaoSupport  implements ReservationDao {
+
+	private SessionFactory sessionFactory;
+
+	/*
+	 * Constructeur
+	 */
+	public void ReservationDaoImpl(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+	
+	/*
+	 * (non-Javadoc)
+	 * @see fr.lesboutsdchou.reservations.dao.planning.ReservationDao#addReservation(fr.lesboutsdchou.reservations.model.personnes.Enfant, java.util.Date, java.util.Date)
+	 */
+	public void addReservation(Enfant enfant, Date dateHeureDebut,
+			Date dateHeureFin) {
+		Reservation reservation = new Reservation();
+		reservation.setEnfant(enfant);
+		reservation.setDateHeureDebut(dateHeureDebut);
+		reservation.setDateHeureFin(dateHeureFin);
+		getHibernateTemplate().save(reservation);
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * @see fr.lesboutsdchou.reservations.dao.planning.ReservationDao#findAllReservations()
+	 */
+	public List<Reservation> findAllReservations() {
+		// TODO Auto-generated method stub
+		return getHibernateTemplate().find("from ReservationBusiness");
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * @see fr.lesboutsdchou.reservations.dao.planning.ReservationDao#findAllReservationsByDate(java.util.Date)
+	 */
+	public List<Reservation> findAllReservationsByDate(Date date) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * @see fr.lesboutsdchou.reservations.dao.planning.ReservationDao#findAllReservationsByFamille(fr.lesboutsdchou.reservations.model.personnes.Famille)
+	 */
+	public List<Reservation> findAllReservationsByFamille(Famille famille) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * @see fr.lesboutsdchou.reservations.dao.planning.ReservationDao#findReservationByEnfantAndByDate(fr.lesboutsdchou.reservations.model.personnes.Enfant, java.util.Date)
+	 */
+	public Reservation findReservationByEnfantAndByDate(Enfant enfant, Date date) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

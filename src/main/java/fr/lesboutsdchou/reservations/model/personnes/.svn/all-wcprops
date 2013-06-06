@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/test/!svn/ver/17/reservations/src/main/java/fr/lesboutsdchou/reservations/model/personnes
+END
+Adresse.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/test/!svn/ver/17/reservations/src/main/java/fr/lesboutsdchou/reservations/model/personnes/Adresse.java
+END
+Famille.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/test/!svn/ver/27/reservations/src/main/java/fr/lesboutsdchou/reservations/model/personnes/Famille.java
+END
+Parent.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/test/!svn/ver/17/reservations/src/main/java/fr/lesboutsdchou/reservations/model/personnes/Parent.java
+END
+Personne.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/test/!svn/ver/17/reservations/src/main/java/fr/lesboutsdchou/reservations/model/personnes/Personne.java
+END
+Enfant.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/test/!svn/ver/17/reservations/src/main/java/fr/lesboutsdchou/reservations/model/personnes/Enfant.java
+END
