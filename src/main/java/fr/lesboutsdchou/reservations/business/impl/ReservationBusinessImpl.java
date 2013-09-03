@@ -48,21 +48,14 @@ public class ReservationBusinessImpl implements ReservationBusiness {
 	public void supprimerReservation(CreneauReserve creneau) {
 		reservationServices.deleteReservation(creneau);
 	}
-	/*
-	 * (non-Javadoc)
-	 * @see fr.lesboutsdchou.reservations.business.ReservationBusiness#rechercherReservation(fr.lesboutsdchou.reservations.model.planning.CreneauReserve)
-	 */
-	public CreneauReserve rechercherReservation(CreneauReserve creneau) {
-		return null;
-	}
+
 	/*
 	 * (non-Javadoc)
 	 * @see fr.lesboutsdchou.reservations.business.ReservationBusiness#rechercherReservationsParEnfant(fr.lesboutsdchou.reservations.model.personnes.Famille, fr.lesboutsdchou.reservations.model.personnes.Enfant)
 	 */
 	public List<CreneauReserve> rechercherReservationsParEnfant(
 			Famille famille, Enfant enfant) {
-		// TODO Auto-generated method stub
-		return null;
+		return reservationServices.findAllReservationsByEnfant(enfant);
 	}
 	/*
 	 * (non-Javadoc)

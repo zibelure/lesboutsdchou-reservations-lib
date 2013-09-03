@@ -8,12 +8,20 @@ import fr.lesboutsdchou.reservations.model.personnes.Enfant;
 import fr.lesboutsdchou.reservations.model.personnes.Famille;
 import fr.lesboutsdchou.reservations.services.personnes.EnfantServices;
 
+/**
+ * @author anadot
+ *
+ */
 public class EnfantServicesImpl implements EnfantServices {
 	
+	/**
+	 * enfantDao EnfantDao
+	 */
 	EnfantDao enfantDao;
 
-	/*
-	 * 
+
+	/**
+	 * @param enfantDao
 	 */
 	public EnfantServicesImpl(EnfantDao enfantDao) {
 		this.enfantDao = enfantDao;

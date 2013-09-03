@@ -16,6 +16,10 @@ public class BeanFactory {
 	private static ApplicationContext context;
 	private BeanFactory (){}
 	
+	/**
+	 * getInstance
+	 * @return
+	 */
 	public static synchronized BeanFactory getInstance () {
 	  if (beanFactory == null) {
 		  beanFactory = new BeanFactory();
@@ -24,6 +28,10 @@ public class BeanFactory {
 	 return beanFactory;
 	}
 
+	/**
+	 * getContext
+	 * @return
+	 */
 	public ApplicationContext getContext() {
 		return context;
 	}

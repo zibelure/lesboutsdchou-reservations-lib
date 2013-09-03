@@ -7,6 +7,11 @@ import fr.lesboutsdchou.reservations.business.BusinessFactory;
 import fr.lesboutsdchou.reservations.business.ReservationBusiness;
 import fr.lesboutsdchou.reservations.services.BeanFactory;
 
+/**
+ * BusinessFactoryImpl
+ * @author anadot
+ *
+ */
 public class BusinessFactoryImpl implements BusinessFactory {
 	
 	private ApplicationContext context;

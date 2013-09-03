@@ -9,6 +9,10 @@ import fr.lesboutsdchou.reservations.dao.personnes.EnfantDao;
 import fr.lesboutsdchou.reservations.model.personnes.Enfant;
 import fr.lesboutsdchou.reservations.model.personnes.Famille;
 
+/**
+ * @author anadot
+ *
+ */
 public class EnfantDaoImpl extends HibernateDaoSupport implements EnfantDao {
 	
 	/*

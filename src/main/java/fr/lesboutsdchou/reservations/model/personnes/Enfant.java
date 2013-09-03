@@ -1,5 +1,9 @@
 package fr.lesboutsdchou.reservations.model.personnes;
 
+/**
+ * @author anadot
+ *
+ */
 public class Enfant extends Personne {
 
 	@Override

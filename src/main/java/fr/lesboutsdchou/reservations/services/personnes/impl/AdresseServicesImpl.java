@@ -7,12 +7,22 @@ import fr.lesboutsdchou.reservations.model.personnes.Adresse;
 import fr.lesboutsdchou.reservations.model.personnes.Famille;
 import fr.lesboutsdchou.reservations.services.personnes.AdresseServices;
 
+/**
+ * @author anadot
+ *
+ */
 public class AdresseServicesImpl implements AdresseServices {
 	
+	/**
+	 * adresseDao AdresseDao
+	 */
 	AdresseDao adresseDao;
 
 	/*
 	 * 
+	 */
+	/**
+	 * @param adresseDao
 	 */
 	public AdresseServicesImpl(AdresseDao adresseDao) {
 		this.adresseDao = adresseDao;
@@ -20,6 +30,9 @@ public class AdresseServicesImpl implements AdresseServices {
 
 	/*
 	 * (non-Javadoc)
+	 * @see fr.lesboutsdchou.reservations.services.personnes.AdresseServices#addAdresse(fr.lesboutsdchou.reservations.model.personnes.Adresse)
+	 */
+	/* (non-Javadoc)
 	 * @see fr.lesboutsdchou.reservations.services.personnes.AdresseServices#addAdresse(fr.lesboutsdchou.reservations.model.personnes.Adresse)
 	 */
 	public void addAdresse(Adresse adresse) {
@@ -30,12 +43,18 @@ public class AdresseServicesImpl implements AdresseServices {
 	 * (non-Javadoc)
 	 * @see fr.lesboutsdchou.reservations.services.personnes.AdresseServices#updateAdresse(fr.lesboutsdchou.reservations.model.personnes.Adresse)
 	 */
+	/* (non-Javadoc)
+	 * @see fr.lesboutsdchou.reservations.services.personnes.AdresseServices#updateAdresse(fr.lesboutsdchou.reservations.model.personnes.Adresse)
+	 */
 	public void updateAdresse(Adresse adresse) {
 		adresseDao.updateAdresse(adresse);
 	}
 
 	/*
 	 * (non-Javadoc)
+	 * @see fr.lesboutsdchou.reservations.services.personnes.AdresseServices#deleteAdresse(fr.lesboutsdchou.reservations.model.personnes.Adresse)
+	 */
+	/* (non-Javadoc)
 	 * @see fr.lesboutsdchou.reservations.services.personnes.AdresseServices#deleteAdresse(fr.lesboutsdchou.reservations.model.personnes.Adresse)
 	 */
 	public void deleteAdresse(Adresse adresse) {
@@ -46,6 +65,9 @@ public class AdresseServicesImpl implements AdresseServices {
 	 * (non-Javadoc)
 	 * @see fr.lesboutsdchou.reservations.services.personnes.AdresseServices#findAllFamilles()
 	 */
+	/* (non-Javadoc)
+	 * @see fr.lesboutsdchou.reservations.services.personnes.AdresseServices#findAllFamilles()
+	 */
 	public List<Famille> findAllFamilles() {
 		// TODO Auto-generated method stub
 		return null;
@@ -53,6 +75,9 @@ public class AdresseServicesImpl implements AdresseServices {
 
 	/*
 	 * (non-Javadoc)
+	 * @see fr.lesboutsdchou.reservations.services.personnes.AdresseServices#findAdressesByFamille(fr.lesboutsdchou.reservations.model.personnes.Famille)
+	 */
+	/* (non-Javadoc)
 	 * @see fr.lesboutsdchou.reservations.services.personnes.AdresseServices#findAdressesByFamille(fr.lesboutsdchou.reservations.model.personnes.Famille)
 	 */
 	public Adresse findAdressesByFamille(Famille famille) {

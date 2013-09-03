@@ -8,12 +8,22 @@ import fr.lesboutsdchou.reservations.model.personnes.Famille;
 import fr.lesboutsdchou.reservations.model.personnes.Parent;
 import fr.lesboutsdchou.reservations.services.personnes.ParentServices;
 
+/**
+ * @author anadot
+ *
+ */
 public class ParentServicesImpl implements ParentServices {
 	
+	/**
+	 * parentDao ParentDao
+	 */
 	ParentDao parentDao;
 
 	/*
 	 * 
+	 */
+	/**
+	 * @param parentDao
 	 */
 	public ParentServicesImpl(ParentDao parentDao) {
 		this.parentDao = parentDao;

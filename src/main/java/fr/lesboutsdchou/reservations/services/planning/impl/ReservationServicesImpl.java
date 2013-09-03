@@ -62,8 +62,15 @@ public class ReservationServicesImpl implements ReservationServices {
 	 * @see fr.lesboutsdchou.reservations.services.planning.ReservationServices#findAllReservationsByFamille(fr.lesboutsdchou.reservations.model.personnes.Famille)
 	 */
 	public List<CreneauReserve> findAllReservationsByFamille(Famille famille) {
-		// TODO Auto-generated method stub
-		return null;
+		return reservationDao.findAllReservationsByFamille(famille);
+	}
+	
+	/*
+	 * (non-Javadoc)
+	 * @see fr.lesboutsdchou.reservations.services.planning.ReservationServices#findAllReservationsByEnfant(fr.lesboutsdchou.reservations.model.personnes.Enfant)
+	 */
+	public List<CreneauReserve> findAllReservationsByEnfant(Enfant enfant) {
+		return reservationDao.findAllReservationsByEnfants(enfant);
 	}
 	/*
 	 * (non-Javadoc)

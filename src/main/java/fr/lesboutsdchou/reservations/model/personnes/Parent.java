@@ -1,7 +1,14 @@
 package fr.lesboutsdchou.reservations.model.personnes;
 
+/**
+ * @author anadot
+ *
+ */
 public class Parent extends Personne {
 
+	/* (non-Javadoc)
+	 * @see fr.lesboutsdchou.reservations.model.personnes.Personne#toString()
+	 */
 	@Override
 	public String toString() {
 		return "Parent [getDateCreation()=" + getDateCreation()

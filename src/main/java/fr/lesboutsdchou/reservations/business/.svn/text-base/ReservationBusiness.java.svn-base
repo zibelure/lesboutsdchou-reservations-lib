@@ -1,5 +1,0 @@
-package fr.lesboutsdchou.reservations.business;
-
-public interface ReservationBusiness {
-
-}

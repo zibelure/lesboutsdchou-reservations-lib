@@ -9,6 +9,10 @@ import fr.lesboutsdchou.reservations.dao.personnes.AdresseDao;
 import fr.lesboutsdchou.reservations.model.personnes.Adresse;
 import fr.lesboutsdchou.reservations.model.personnes.Famille;
 
+/**
+ * @author anadot
+ *
+ */
 public class AdresseDaoImpl extends HibernateDaoSupport implements AdresseDao {
     
 	/*
